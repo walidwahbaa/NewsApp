@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController{
 
     var model = ArticleModel()
-    
+    var articles = [Article]()
 
     
     
@@ -25,13 +25,15 @@ class ViewController: UIViewController{
     }
 
 }
+
 //We use extentions which can add functionality to any existing class and it's a better way to organize code
 extension ViewController: ArticleModelProtocol {
     
 //MARK: Article Model Protocol Methods
     
 func articlesRetrived(_ articles: [Article]) {
-    print("Articles retrived from the model")
+    //set the articels retrived from the article model to the articles in the view controller
+    self.articles = articles
 }
     
 }

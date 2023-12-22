@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct ArticleServies {
+struct ArticleServies : Decodable {
     var totalResults:Int?
     var articles:[Article]?
     
