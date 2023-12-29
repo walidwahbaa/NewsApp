@@ -6,9 +6,13 @@
 //
 
 import UIKit
+import WebKit
 
 class DetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var theWebView: WKWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
