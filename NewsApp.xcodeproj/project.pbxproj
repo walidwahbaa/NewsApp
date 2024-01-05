@@ -17,6 +17,7 @@
 		1B2784E42B34712C00FA7EB2 /* ArticleServies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2784E32B34712C00FA7EB2 /* ArticleServies.swift */; };
 		1B2784E62B3471C100FA7EB2 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2784E52B3471C100FA7EB2 /* ArticleModel.swift */; };
 		1B7A92982B3EA6540034358F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A92972B3EA6540034358F /* DetailViewController.swift */; };
+		1BCD1BAF2B482C8F00CC8CFC /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCD1BAE2B482C8F00CC8CFC /* ArticleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		1B2784E32B34712C00FA7EB2 /* ArticleServies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleServies.swift; sourceTree = "<group>"; };
 		1B2784E52B3471C100FA7EB2 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		1B7A92972B3EA6540034358F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1BCD1BAE2B482C8F00CC8CFC /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1B2784CD2B34686F00FA7EB2 /* AppDelegate.swift */,
 				1B2784CF2B34686F00FA7EB2 /* SceneDelegate.swift */,
 				1B2784D12B34686F00FA7EB2 /* ViewController.swift */,
+				1BCD1BAE2B482C8F00CC8CFC /* ArticleCell.swift */,
 				1B7A92972B3EA6540034358F /* DetailViewController.swift */,
 				1B2784E52B3471C100FA7EB2 /* ArticleModel.swift */,
 				1B2784E32B34712C00FA7EB2 /* ArticleServies.swift */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCD1BAF2B482C8F00CC8CFC /* ArticleCell.swift in Sources */,
 				1B2784E22B346EFC00FA7EB2 /* Article.swift in Sources */,
 				1B2784D22B34686F00FA7EB2 /* ViewController.swift in Sources */,
 				1B2784E42B34712C00FA7EB2 /* ArticleServies.swift in Sources */,

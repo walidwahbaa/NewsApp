@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArticleCell" id="0Ji-DV-vlP">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArticleCell" id="0Ji-DV-vlP" customClass="ArticleCell" customModule="NewsApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0Ji-DV-vlP" id="zxe-yU-R8X">
@@ -51,6 +51,10 @@
                                             <constraint firstItem="zo7-Cb-yaE" firstAttribute="width" secondItem="0Ji-DV-vlP" secondAttribute="width" multiplier="0.3" id="Yg9-jU-8vK"/>
                                             <constraint firstItem="TVD-AS-ihN" firstAttribute="width" secondItem="0Ji-DV-vlP" secondAttribute="width" multiplier="0.7" constant="-40" id="ukO-sC-cxW"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="articleImageView" destination="zo7-Cb-yaE" id="lxQ-k4-On8"/>
+                                            <outlet property="headlineLabel" destination="TVD-AS-ihN" id="OYY-mM-aG3"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

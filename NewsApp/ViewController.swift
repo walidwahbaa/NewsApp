@@ -54,8 +54,13 @@ extension ViewController : UITableViewDataSource , UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         //Get a cell
-       let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ArticleCell", for: indexPath) as! ArticleCell
+        
+        //Get the article that the table view is asking about
+        let article = articles[indexPath.row]
+        
         //Configure it
+        cell.displayArticle(article)
         
         //Return it
         return cell 
